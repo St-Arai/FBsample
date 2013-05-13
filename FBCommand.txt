@@ -1,1 +1,1 @@
-findbugs -textui -low -xml -output output.xml C:\Projects\workspace\FBsample\bin\src\FBsample.class
+findbugs -textui -low -xml -output testOutput.xml C:/Projects/workspace/FBsample/bin/src/FBsample.class

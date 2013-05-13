@@ -11,9 +11,7 @@ public class FBsample {
 		if (str instanceof String) {
 			System.out.println("STRING");
 		}
-		
-		str.toString();
-		
+
 		switch (n) {
 			case 1 :
 				System.out.println(n);
