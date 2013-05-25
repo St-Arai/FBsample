@@ -3,13 +3,15 @@ package src;
 public class FBsample {
 	public static void main(String[] args) {
 		String str = null;
-		String str2 = null;
+		String str2 = "Object";
 
 		int n = 10;
-		n = n % 1;
+		n = n + 1;
 
 		if (str instanceof String) {
 			System.out.println("STRING");
+		} else if (str2.equals(str)) {
+			System.out.println("EQUAL");
 		}
 
 		switch (n) {
@@ -17,6 +19,9 @@ public class FBsample {
 				System.out.println(n);
 				break;
 			case 2 :
+				System.out.println(n + 1);
+				break;
+			case 3 :
 				System.out.println(n + 1);
 				break;
 			default :
@@ -31,9 +36,7 @@ public class FBsample {
 		System.out.println(bool);
 
 		int x = 10;
-		if (x <= Integer.MAX_VALUE) {
-			System.out.println("STRINGGG");
-		}
+
 		boolean ean = true;
 		if (ean == false) {
 			System.out.println("STRING");
