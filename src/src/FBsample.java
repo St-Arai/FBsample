@@ -29,7 +29,7 @@ public class FBsample {
 				break;
 		}
 
-		String str3 = "Test";
+		String str3 = "Test".toString();
 
 		Boolean bool = true;
 
