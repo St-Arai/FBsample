@@ -17,16 +17,12 @@ public class FBsample {
 		switch (n) {
 			case 1 :
 				System.out.println(n);
-				break;
 			case 2 :
 				System.out.println(n + 1);
-				break;
 			case 3 :
 				System.out.println(n + 1);
-				break;
 			default :
 				System.out.println(n + 3);
-				break;
 		}
 
 		String str3 = "Test";
